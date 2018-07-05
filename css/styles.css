@@ -1,0 +1,79 @@
+@media screen and (min-width: 360px) {
+  .logo, .name_header, .about, .featured_work_section, .work_example_image {
+    width: 100%;
+  }
+  .logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 25%;
+  }
+  .name_header{
+    width: 75%;
+  }
+  .about, .featured_work_section {
+    width: 100%;
+  }
+  .work_example_image {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('../images/background.png');
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  color: #7d97ad;
+  height: 2px;
+  width: 100%;
+}
+
+#name {
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 5pt;
+  font-size: 45pt;
+}
+
+#subtitle {
+  text-align: right;
+  padding-right: 5pt;
+  font-size: 20pt;
+}
+
+#featured_work {
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 5pt;
+  font-size: 25pt;
+}
+
+
+.work_example {
+  text-align: center;
+  font-size: 16pt;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
